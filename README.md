@@ -24,3 +24,13 @@ VCS: Git
 VCS Link:  https://github.com/smchaha/jukebox
 
 ## Project Part 2 - Project	Tracker and	Requirements
+
+Title: E-Jukebox
+
+Vision: Provide users an influence in the choice of music at social events.
+
+Who: Justin Barnitz, Patrick Andresen, Stefan Codrescu, Daniel Thompson
+
+List of requirements:
+
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6177128/33216cd0-b2c1-11e4-8e37-dfb09be563e2.png)
