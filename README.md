@@ -48,39 +48,42 @@ Project Plan:
 Market Analysis:
 
 Target market:
-  Parties hosting guests ages 16 to 40
-  Locations and venues where music plays
-  Profile of competitors
+  * Parties hosting guests ages 16 to 40
+  * Locations and venues where music plays
+  * Profile of competitors
   
   http://tunetug.com/
-    By downloading an iPhone app, you can send guests a link through which they can request songs to be played. Also supports     Spotify integration. Users can upvote and downvote songs.
-    4.5 stars on iOS app store from 35 reviews
+  *  By downloading an iPhone app, you can send guests a link through which they can request songs to be played. Also supports     Spotify integration. Users can upvote and downvote songs.
+  *  4.5 stars on iOS app store from 35 reviews
 
   Advantages
-    Uses users existing library to avoid streaming issues
+  *  Uses users existing library to avoid streaming issues
   
   Disadvantages
-    requires host to have either spotify or large itunes library
-    requires host to have an iphone
-    http://www.tracktl.com/
+  *  requires host to have either spotify or large itunes library
+  *  requires host to have an iphone
+ 
+  http://www.tracktl.com/
   
-  Sleek project with attention to design. iOS and Android application as well as web interface to interact with songs. Users   can search for songs on Grooveshark and Soundcloud and add to playlist. Messaging feature integrated. User signup or         connection with SSO service required. 
+  *Sleek project with attention to design. iOS and Android application as well as web interface to interact with songs.
+  Users can search for songs on Grooveshark and Soundcloud and add to playlist. Messaging feature integrated. User 
+  signup or connection with SSO service required. 
   Boasts ~24000 users having thrown ~28000 parties
 
   Advantages
-    multiple music sources
-    iphone, android, and web service
-    good design
+  *  multiple music sources
+  *  iphone, android, and web service
+  * good design
   
   Disadvantages
-    Requires sign on
-    Lots of features, draws focus away from the party to the service
-    no up or down voting songs
+  *  Requires sign on
+  *  Lots of features, draws focus away from the party to the service
+  *  no up or down voting songs
 
   Competitive advantage
-    simplicity
-    Ease of use: no signup or sign-on
-    Free service funded by advertisements or sponsored by event hosts
-    Youtube for music integration
-    Ability to play music through both mobile and desktop systems.
+  *  simplicity
+  *  Ease of use: no signup or sign-on
+  *  Free service funded by advertisements or sponsored by event hosts
+  *  Youtube for music integration
+  *  Ability to play music through both mobile and desktop systems.
 
