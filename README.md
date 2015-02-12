@@ -1,8 +1,7 @@
 # E-Jukebox
 Consensus based music for parties
 
-## Project Part 1
-Project Part 1 – Proposal Submission + Repository
+## Project Part 1 – Proposal Submission + Repository
 
 Who: Justin Barnitz, Patrick Andresen, Stefan Codrescu, Danny Thompson
 
@@ -23,3 +22,5 @@ Risks:
 VCS: Git 
 
 VCS Link:  https://github.com/smchaha/jukebox
+
+## Project Part 2 - Project	Tracker and	Requirements
