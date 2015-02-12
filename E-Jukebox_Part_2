@@ -1,0 +1,171 @@
+Project	Part 2: Project Tracker and Requirements
+Title: E-Jukebox
+Vision: Provide users an influence in the choice of music at social events.
+Who: Justin Barnitz, Patrick Andresen, Stefan Codrescu, Daniel Thompson
+List of requirements:
+	
+
+
+
+
+User Requirements
+
+
+Req. ID
+Topic
+Requirements Description
+Priority
+USER - 001
+Usage
+As a host, I want veto rights, so only appropriate songs are played
+3
+USER - 002
+Usage
+As a user (host), I might want to transfer control of the party to someone else
+13
+USER - 003
+Usage
+As a user (host), I will be the only user with executive decisions at the party.
+3
+USER - 004
+Usage
+As a user (guest), I would like to search for a song to add to the playlist
+8
+USER - 005
+Usage
+As a user (host), I would like to have the ability to select a song to play next.
+3
+USER - 006
+Usage
+As a user, I want to be able to upvote or downvote a song (only one vote per user per song), so that popular songs are played
+8
+
+
+
+
+
+
+Business Requirements
+
+
+Req. ID
+Topic
+Requirements Description
+Priority
+BUS - 001
+Sensibility
+An algorithm should pick the ordering of the playlist such that a party does not exhaust all the highest voted songs at once.
+13
+BUS - 002
+Appeal
+As a producer of this app, I want a cool logo that I can be excited to show my customers
+3
+BUS - 003
+Sensibility
+As a host, I want to select from some pre selected playlists to populate the party while guests arrive
+13
+
+
+
+
+
+
+
+
+
+Functional Requirements
+
+
+Req. ID
+Topic
+Requirements Description
+Priority
+FR - 001
+History
+During the 5 days a party is preserved, guests may view the list of songs that played at a party
+2
+FR - 002
+Usage
+A user may not add more than 5 songs to the playlist in an hour.
+5
+FR - 003
+Security
+A user and host are identified by unique, hard to forge identifiers
+3
+FR - 004
+Security
+A user can only be a member of one party at one time
+3
+FR - 005
+Usage
+As a product, need a server and domain name
+3
+
+
+
+
+
+
+Non Functional Requirements
+
+
+Req. ID
+Topic
+Requirements Description
+Priority
+NFR - 001
+Security
+As a host, I only want people at my event to be able to vote, to prevent illegitimate access by others.
+3
+NFR - 002
+Maintainability
+A party string identifier will be cleared 5 days after the last song submission so that it can be used again
+3
+NFR - 003
+Usage
+As a user, I want a simple interface.
+5
+NFR - 004
+Usage
+As a user, I want the features I use most often to be the most accessible.
+3
+NFR - 005
+Usage
+As a user (host), I want to be able to start a party quickly
+1
+
+Methodology: Iterfall
+Project Tracking Software: Trello
+Link to project tracking software: https://trello.com/b/fDddk6LO/e-juke-box
+Project Plan: 
+
+Market Analysis:
+Target market:
+Parties hosting guests ages 16 to 40
+Locations and venues where music plays
+Profile of competitors
+http://tunetug.com/
+By downloading an iPhone app, you can send guests a link through which they can request songs to be played. Also supports Spotify integration. Users can upvote and downvote songs.
+4.5 stars on iOS app store from 35 reviews
+Advantages
+Uses users existing library to avoid streaming issues
+Disadvantages
+requires host to have either spotify or large itunes library
+requires host to have an iphone
+http://www.tracktl.com/
+Sleek project with attention to design. iOS and Android application as well as web interface to interact with songs. Users can search for songs on Grooveshark and Soundcloud and add to playlist. Messaging feature integrated. User signup or connection with SSO service required. 
+Boasts ~24000 users having thrown ~28000 parties
+Advantages
+multiple music sources
+iphone, android, and web service
+good design
+Disadvantages
+Requires sign on
+Lots of features, draws focus away from the party to the service
+no up or down voting songs
+Competitive advantage
+simplicity
+Ease of use: no signup or sign-on
+Free service funded by advertisements or sponsored by event hosts
+Youtube for music integration
+Ability to play music through both mobile and desktop systems.
