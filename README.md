@@ -32,5 +32,6 @@ Vision: Provide users an influence in the choice of music at social events.
 Who: Justin Barnitz, Patrick Andresen, Stefan Codrescu, Daniel Thompson
 
 List of requirements:
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6177267/76667746-b2c2-11e4-8304-c7c8c0d6bcbf.png)
 
 ![alt tag](https://cloud.githubusercontent.com/assets/10746339/6177128/33216cd0-b2c1-11e4-8e37-dfb09be563e2.png)
