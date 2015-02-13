@@ -54,7 +54,7 @@ Title: E-Jukebox
 **Profile of competitors**
 
  **http://tunetug.com/**
- *  By downloading an iPhone app, you can send guests a link through which they can request songs to be played. Also supports Spotify integration. Users can upvote and downvote songs.
+ *  By downloading an iPhone app, you can send guests a link through which they can request songs to be played. Also   supports Spotify integration. Users can upvote and downvote songs.
  *  4.5 stars on iOS app store from 35 reviews
 
   **Advantages**
@@ -64,24 +64,21 @@ Title: E-Jukebox
   *  requires host to have either spotify or large itunes library
   *  requires host to have an iphone
  
- **http://www.tracktl.com/**
- 
-  *Sleek project with attention to design. iOS and Android application as well as web interface to interact with songs.
-  Users can search for songs on Grooveshark and Soundcloud and add to playlist. Messaging feature integrated. User 
-  signup or connection with SSO service required. 
-  Boasts ~24000 users having thrown ~28000 parties
+**http://www.tracktl.com/**
+ * Sleek project with attention to design. iOS and Android application as well as web interface to interact with songs. Users can search for songs on Grooveshark and Soundcloud and add to playlist. Messaging feature integrated. User signup or connection with SSO service required.
+ * Boasts ~24000 users having thrown ~28000 parties
 
-  **Advantages**
+   **Advantages**
   *  multiple music sources
   *  iphone, android, and web service
   * good design
   
-  **Disadvantages**
+   **Disadvantages**
   *  Requires sign on
   *  Lots of features, draws focus away from the party to the service
   *  no up or down voting songs
 
-  **Competitive advantage**
+**Competitive advantage**
   *  simplicity
   *  Ease of use: no signup or sign-on
   *  Free service funded by advertisements or sponsored by event hosts
