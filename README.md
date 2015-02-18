@@ -3,9 +3,9 @@ Consensus based music for parties
 
 ## Project Part 1 – Proposal Submission + Repository
 
-Who: Justin Barnitz, Patrick Andresen, Stefan Codrescu, Danny Thompson
+**Who:** Justin Barnitz, Patrick Andresen, Stefan Codrescu, Danny Thompson
 
-Title: E-Jukebox 
+**Title:** E-Jukebox 
 
 **Description:** A web application that allows users to either host or join an established party. The users in a party can request a song and vote up or down on song choices. The most recent or desired song will be played. 
 
@@ -85,3 +85,14 @@ Title: E-Jukebox
   *  Youtube for music integration
   *  Ability to play music through both mobile and desktop systems.
 
+## Project Part 3 - Database
+
+**Title:** E-Jukebox
+
+**Vision:** Provide users an influence in the choice of music at social events.
+
+**Who:** Justin Barnitz, Patrick Andresen, Stefan Codrescu, Daniel Thompson
+
+**Database:** Mongo DB
+
+**E-R Diagram:** 
