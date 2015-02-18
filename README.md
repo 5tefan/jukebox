@@ -95,4 +95,6 @@ Consensus based music for parties
 
 **Database:** Mongo DB
 
-**E-R Diagram:** 
+**E-R Diagram:**  Adapted to an RDBMS style E-R Diagram
+
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6258364/28994918-b785-11e4-901f-00c63ee2ec77.png)
