@@ -25,7 +25,7 @@ exports.host_post = function(req, res) {
 }
 
 exports.party = function(req, res) {
-	return res.send(200, req.params.name + " soon");
+	return res.sendfile(req.app.get('appPath')+'/party.html');
 }
 
 function handleError(res, err) {
