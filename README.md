@@ -98,3 +98,13 @@ Consensus based music for parties
 **E-R Diagram:**  Adapted to an RDBMS style E-R Diagram
 
 ![alt tag](https://cloud.githubusercontent.com/assets/10746339/6258364/28994918-b785-11e4-901f-00c63ee2ec77.png)
+
+## Project Part 6 - Testing
+
+**Title:** E-Jukebox
+
+**Vision:** Provide users an influence in the choice of music at social events.
+
+**Who:** Justin Barnitz, Patrick Andresen, Stefan Codrescu, Daniel Thompson
+
+**Automated Tests:** We ran unit tests on our nodejs server side api endpoints using the shouldjs library. Our tests are all passing as visible in the screenshot below. 
