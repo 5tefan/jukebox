@@ -1,0 +1,2 @@
+sudo apt-get install libfontconfig
+	needed to make phantomjs work
