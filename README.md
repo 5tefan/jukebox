@@ -108,3 +108,12 @@ Consensus based music for parties
 **Who:** Justin Barnitz, Patrick Andresen, Stefan Codrescu, Daniel Thompson
 
 **Automated Tests:** We ran unit tests on our nodejs server side api endpoints using the shouldjs library. Our tests are all passing as visible in the screenshot below. 
+
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933739/9d16fc1c-d7e8-11e4-9d0a-2b66d40f0aa9.png)
+
+**User Appectance Tests:**
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933840/6fbc663e-d7e9-11e4-8840-fd2787aae5b9.png)
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933842/73723b0a-d7e9-11e4-9def-91af2ea7d096.png)
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933843/7581387e-d7e9-11e4-8fd4-b8f5b2dd4505.png)
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933844/77778408-d7e9-11e4-8d98-e830618c362b.png)
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933845/7a36ffd4-d7e9-11e4-9d12-26e865bdd6ba.png)
