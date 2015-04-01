@@ -217,9 +217,18 @@ module.exports = function (grunt) {
     // Automatically inject Bower components into the app
     wiredep: {
       target: {
-        src: '<%= yeoman.client %>/index.html',
+        src: '<%= yeoman.client %>/party.html',
         ignorePath: '<%= yeoman.client %>/',
-        exclude: [/bootstrap-sass-official/, /bootstrap.js/, '/json3/', '/es5-shim/']
+        exclude: [/bootstrap-sass-official/, /bootstrap.js/, '/json3/', '/es5-shim/'],
+	fileTypes: {
+		html: {
+			replace: {
+				js: '<script src="/{{filePath}}"></script>',
+				css: '<link rel="stylesheet" href="/{{filePath}}" />'
+			}
+		}
+	}
+
       }
     },
 
@@ -241,7 +250,7 @@ module.exports = function (grunt) {
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
     useminPrepare: {
-      html: ['<%= yeoman.client %>/index.html'],
+      html: ['<%= yeoman.client %>/party.html'],
       options: {
         dest: '<%= yeoman.dist %>/public'
       }
@@ -351,7 +360,7 @@ module.exports = function (grunt) {
             'bower_components/**/*',
             'assets/images/{,*/}*.{webp}',
             'assets/fonts/**/*',
-            'index.html'
+            'party.html'
           ]
         }, {
           expand: true,
@@ -483,19 +492,19 @@ module.exports = function (grunt) {
       options: {
 
       },
-      // Inject application script files into index.html (doesn't include bower)
+      // Inject application script files into party.html (doesn't include bower)
       scripts: {
         options: {
           transform: function(filePath) {
             filePath = filePath.replace('/client/', '');
             filePath = filePath.replace('/.tmp/', '');
-            return '<script src="' + filePath + '"></script>';
+            return '<script src="/' + filePath + '"></script>';
           },
           starttag: '<!-- injector:js -->',
           endtag: '<!-- endinjector -->'
         },
         files: {
-          '<%= yeoman.client %>/index.html': [
+          '<%= yeoman.client %>/party.html': [
               ['{.tmp,<%= yeoman.client %>}/{app,components}/**/*.js',
                '!{.tmp,<%= yeoman.client %>}/app/app.js',
                '!{.tmp,<%= yeoman.client %>}/{app,components}/**/*.spec.js',
@@ -504,19 +513,19 @@ module.exports = function (grunt) {
         }
       },
 
-      // Inject component css into index.html
+      // Inject component css into party.html
       css: {
         options: {
           transform: function(filePath) {
             filePath = filePath.replace('/client/', '');
             filePath = filePath.replace('/.tmp/', '');
-            return '<link rel="stylesheet" href="' + filePath + '">';
+            return '<link rel="stylesheet" href="/' + filePath + '">';
           },
           starttag: '<!-- injector:css -->',
           endtag: '<!-- endinjector -->'
         },
         files: {
-          '<%= yeoman.client %>/index.html': [
+          '<%= yeoman.client %>/party.html': [
             '<%= yeoman.client %>/{app,components}/**/*.css'
           ]
         }
