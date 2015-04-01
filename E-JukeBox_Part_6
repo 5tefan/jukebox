@@ -1,0 +1,573 @@
+Project Part 6: Testing
+
+Title: JukeBox
+Vision: Provide users an influence in the choice of music at social events.
+Who: Stefan Codrescu, Daniel Thompson, Patrick Andresen, Justin Barnitz
+
+
+Automated Tests: 
+We ran unit tests on our nodejs server side api endpoints using the shouldjs library. Our tests are all passing as visible in the screenshot below.
+User Acceptance Tests:
+Project Title:
+E-JukeBox
+
+
+User Acceptance Test
+
+
+Test Case ID: test_01
+Test Designed by: Team E-JukeBox
+
+
+Test Priority(Low/Med/High): Med
+Test Designed Date: 03/31/2015
+
+
+Module Name: Internet browser
+Test Executed by: User 1
+
+
+Test Title: Finding E-JukeBox website
+Test Exeution Date:
+
+
+Description: Test the ease of finding the website.
+
+
+
+
+Pre-conditions: User knows the address of the website. 104.236.130.203:9000
+
+
+Dependencies: Connection to the internet and server is up.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step
+Test Steps
+Test Data
+Expected Result
+Actual Result
+Status (Pass/Fail) or (Yes/No)
+Notes / Comments
+1
+Open up internet browser
+
+
+Browser home page loads
+
+
+
+
+
+
+2
+Enter IP address
+
+
+Correctly inputs 104.236.130.203:9000
+
+
+
+
+
+
+3
+Home page loads
+
+
+User is brought to E-JukeBox homepage
+
+
+
+
+
+
+4
+The interface was laid out in a logical fasion?
+
+
+Yes
+
+
+
+
+
+
+Post-Conditions: User was successfully able to reach the homepage of E-JukeBox
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Title:
+E-JukeBox
+
+
+User Acceptance Test
+
+
+Test Case ID: test_02
+Test Designed by: Team E-JukeBox
+
+
+Test Priority(Low/Med/High): High
+Test Designed Date: 03/31/2015
+
+
+Module Name: Internet browser
+Test Executed by: User 2
+
+
+Test Title: E-JukeBox Start Party
+Test Exeution Date:
+
+
+Description: Test Start a Party page
+
+
+
+
+Pre-conditions: User is currently on E-JukeBox Main Page
+
+
+Dependencies: Connection to the internet and server is up.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step
+Test Steps
+Test Data
+Expected Result
+Actual Result
+Status (Pass/Fail)
+Notes
+1
+Navigated to Website
+
+
+Homepage loads
+
+
+
+
+
+
+2
+Click on Start Party Link
+
+
+Link will direct user to Start Party page
+
+
+
+
+
+
+3
+Enter Party Name
+
+
+New party is created with unique party name
+
+
+
+
+
+
+Post-Conditions: User was successfully able to start a new party
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Title:
+E-JukeBox
+
+
+User Acceptance Test
+
+
+Test Case ID: test_03
+Test Designed by: Team E-JukeBox
+
+
+Test Priority(Low/Med/High): High
+Test Designed Date: 03/31/2015
+
+
+Module Name: Internet browser
+Test Executed by: User 3
+
+
+Test Title: E-JukeBox Join a Party
+Test Exeution Date:
+
+
+Description: Test Join Party page
+
+
+
+
+Pre-conditions: User is currently on E-JukeBox Main Page
+
+
+Dependencies: Connection to the internet and server is up.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step
+Test Steps
+Test Data
+Expected Result
+Actual Result
+Status (Pass/Fail) or (Yes/No)
+Notes / Comments
+1
+Navigated to Website
+
+
+Homepage loads
+
+
+
+
+
+
+2
+Click on Join Party link
+
+
+Link will direct user to Join Party page
+
+
+
+
+
+
+3
+Enter Party Name
+
+
+Joined specified party
+
+
+
+
+
+
+4
+Command names and options made sense
+
+
+Yes
+
+
+
+
+
+
+Post-Conditions: User was successfully able to join the desired party
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Title:
+E-JukeBox
+
+
+User Acceptance Test
+
+
+Test Case ID: test_04
+Test Designed by: Team E-JukeBox
+
+
+Test Priority(Low/Med/High): Med
+Test Designed Date: 03/31/2015
+
+
+Module Name: Internet browser
+Test Executed by: User 4
+
+
+Test Title: Search for a Song
+Test Exeution Date:
+
+
+Description: Test that User can enter song title or artist and service returns list of possible matches for User to accept
+
+
+
+
+Pre-conditions: User has either joined a party or has hosted a party
+
+
+Dependencies: Song provider service.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step
+Test Steps
+Test Data
+Expected Result
+Actual Result
+Status (Pass/Fail) or (Yes/No)
+Notes / Comments
+1
+Enter a track title or artist name into search field
+
+
+Service returns songs matching User's query
+
+
+
+
+
+
+2
+Did it take a reasonable amount of time to return matches?
+
+
+Yes
+
+
+
+
+
+
+3
+Did the returned songs resemble User's query?
+
+
+Yes
+
+
+
+
+
+
+4
+The interface was laid out in a logical fasion?
+
+
+Yes
+
+
+
+
+
+
+Post-Conditions: Matching songs and artists appear in browser in tabular format for User to select
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Title:
+E-JukeBox
+
+
+User Acceptance Test
+
+
+Test Case ID: test_05
+Test Designed by: Team E-JukeBox
+
+
+Test Priority(Low/Med/High): Med
+Test Designed Date: 03/31/2015
+
+
+Module Name: Internet browser
+Test Executed by: User 5
+
+
+Test Title: Playlist visible
+Test Exeution Date:
+
+
+Description: Make sure the user can see the playlist
+
+
+
+
+Pre-conditions: A party is in progress, songs have been requested, and the tester is a guest at the party
+
+
+Dependencies: Tester is on the playlist tab.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step
+Test Steps
+Test Data
+Expected Result
+Actual Result
+Status (Pass/Fail) or (Yes/No)
+Notes / Comments
+1
+Join a party
+
+
+User becomes a member of the party
+
+
+
+
+
+
+2
+Go to the playlist tab
+
+
+User should see the playlist
+
+
+
+
+
+
+3
+Was learning to operate the program was easy?
+
+
+Yes
+
+
+
+
+
+
+Post-Conditions: User is able to see the playlist to see what songs are going to be played.
+
