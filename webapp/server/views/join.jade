@@ -2,12 +2,12 @@ extends layout
 block content
 	h1 Welcome to JukeBox!
 	
-	h2 <strong>Start a Party</strong>
+	h2 <strong>Join a Party</strong>
 		if (message)
 			p= message
-		form#formJoinParty(name="party",method="post",action="/host")
+		form#formJoinParty(name="party",method="post",action="/join")
 			input#inputPartyName(type="text",placeholder="Enter Party Name", name="name")
-			button#btnSubmit(type="submit") Start
+			button#btnSubmit(type="submit") join
 
 	
 		
