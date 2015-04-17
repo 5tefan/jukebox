@@ -2,6 +2,8 @@
 logs
 *.log
 
+#temprorary files
+*.swp
 # Runtime data
 pids
 *.pid
