@@ -117,3 +117,17 @@ Consensus based music for parties
 ![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933843/7581387e-d7e9-11e4-8fd4-b8f5b2dd4505.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933844/77778408-d7e9-11e4-8d98-e830618c362b.png)
 ![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933845/7a36ffd4-d7e9-11e4-9d12-26e865bdd6ba.png)
+
+## Project Part 7 - Auto Doc
+
+**Title:** E-Jukebox
+
+**Vision:** Provide users an influence in the choice of music at social events.
+
+**Auto-documenter:** JSDoc
+
+**Link to Source code documented as a pdf file in our VCS:** JSDoc does not support pdf output
+
+**Link to Source code documented as an HTML site in our VCS:**
+
+**VCS Link: https:** //github.com/smchaha/jukebox
