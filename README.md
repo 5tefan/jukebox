@@ -128,6 +128,8 @@ Consensus based music for parties
 
 **Link to Source code documented as a pdf file in our VCS:** JSDoc does not support pdf output
 
-**Link to Source code documented as an HTML site in our VCS:**
+**Link to Source code documented as an HTML site in our VCS:** https://github.com/smchaha/jukebox/tree/master/out/index.html
 
 **VCS Link: https:** //github.com/smchaha/jukebox
+![alt tag] ()
+
