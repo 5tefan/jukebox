@@ -5,6 +5,11 @@ var mongoose = require('mongoose'),
 	ObjectId = Schema.ObjectId,
 	moment = require('moment');
 
+/**
+* Party Schema
+* @module api/party
+*/
+
 var PartySchema = new Schema({
 	name: { type: String, required: true, unique: true},
 	playlist: [ {
