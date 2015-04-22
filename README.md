@@ -98,3 +98,38 @@ Consensus based music for parties
 **E-R Diagram:**  Adapted to an RDBMS style E-R Diagram
 
 ![alt tag](https://cloud.githubusercontent.com/assets/10746339/6258364/28994918-b785-11e4-901f-00c63ee2ec77.png)
+
+## Project Part 6 - Testing
+
+**Title:** E-Jukebox
+
+**Vision:** Provide users an influence in the choice of music at social events.
+
+**Who:** Justin Barnitz, Patrick Andresen, Stefan Codrescu, Daniel Thompson
+
+**Automated Tests:** We ran unit tests on our nodejs server side api endpoints using the shouldjs library. Our tests are all passing as visible in the screenshot below. 
+
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933739/9d16fc1c-d7e8-11e4-9d0a-2b66d40f0aa9.png)
+
+**User Appectance Tests:**
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933840/6fbc663e-d7e9-11e4-8840-fd2787aae5b9.png)
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933842/73723b0a-d7e9-11e4-9def-91af2ea7d096.png)
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933843/7581387e-d7e9-11e4-8fd4-b8f5b2dd4505.png)
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933844/77778408-d7e9-11e4-8d98-e830618c362b.png)
+![alt tag](https://cloud.githubusercontent.com/assets/10746339/6933845/7a36ffd4-d7e9-11e4-9d12-26e865bdd6ba.png)
+
+## Project Part 7 - Auto Doc
+
+**Title:** E-Jukebox
+
+**Vision:** Provide users an influence in the choice of music at social events.
+
+**Auto-documenter:** JSDoc
+
+**Link to Source code documented as a pdf file in our VCS:** JSDoc does not support pdf output
+
+**Link to Source code documented as an HTML site in our VCS:** https://github.com/smchaha/jukebox/tree/master/out/index.html
+
+**VCS Link: https:** //github.com/smchaha/jukebox
+![alt tag] (https://github.com/smchaha/jukebox/blob/master/screencapture-file-home-stefan-jukebox-out-module-api_main_controller-html-1429745284703.png?raw=true)
+

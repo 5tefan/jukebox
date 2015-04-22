@@ -5,15 +5,13 @@ var app = require('../../app');
 var request = require('supertest');
 
 describe('GET /api/main', function() {
-
-  it('should respond with JSON array', function(done) {
+  it('should be an html document', function(done) {
     request(app)
-      .get('/api/main')
+      .get('/')
       .expect(200)
-      .expect('Content-Type', /json/)
       .end(function(err, res) {
         if (err) return done(err);
-        res.body.should.be.instanceof(Array);
+        res.should.be.html;
         done();
       });
   });

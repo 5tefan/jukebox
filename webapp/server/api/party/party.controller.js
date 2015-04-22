@@ -3,6 +3,23 @@
 var _ = require('lodash');
 var Party = require('./party.model');
 
+exports.playlist_get = function(req, res) {
+  Party.findOne( {hash: req.body.hash }, function (err, party) {
+    if(err) { return handleError(res, err); }
+	//TODO: delete submitted by field from results
+    return res.json(party.playlist);
+  });
+};
+
+exports.playlist_add = function(req, res) {
+	return res.json("coming soon");
+}
+
+exports.playlist_delete = function(req, res) {
+	return res.json("coming soon");
+}
+
+/*
 // Get list of partys
 exports.index = function(req, res) {
   Party.find(function (err, partys) {
@@ -57,3 +74,4 @@ exports.destroy = function(req, res) {
 function handleError(res, err) {
   return res.send(500, err);
 }
+*/

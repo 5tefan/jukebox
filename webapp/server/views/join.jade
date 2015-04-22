@@ -1,0 +1,13 @@
+extends layout
+block content
+	h1 Welcome to JukeBox!
+	
+	h2 <strong>Join a Party</strong>
+		if (message)
+			p= message
+		form#formJoinParty(name="party",method="post",action="/join")
+			input#inputPartyName(type="text",placeholder="Enter Party Name", name="name")
+			button#btnSubmit(type="submit") join
+
+	
+		

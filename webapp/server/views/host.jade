@@ -4,10 +4,10 @@ block content
 	
 	h2 <strong>Start a Party</strong>
 		if (message)
-			p = message
-		form#formJoinParty(name="party",methods="post",action="/join")
+			p= message
+		form#formJoinParty(name="party",method="post",action="/host")
 			input#inputPartyName(type="text",placeholder="Enter Party Name", name="name")
-			button#btnSubmit(type="Submit") join
+			button#btnSubmit(type="submit") Start
 
 	
 		

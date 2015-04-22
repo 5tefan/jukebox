@@ -24,4 +24,16 @@ angular.module('jukeboxApp')
     $scope.$on('$destroy', function () {
       socket.unsyncUpdates('thing');
     });
+
+
+	$scope.songs = [ {
+		name: "joe",
+		artist: "tard"
+	}, {
+		name: "joe1",
+		artist: "ta1rd"
+	}, {
+		name: "jo2e",
+		artist: "ta2rd"
+	}];
   });
