@@ -1,8 +1,11 @@
 extends layout
+block head
+	link(rel="stylesheet", href="/assets/css/index.css")
 block content
-	h1 Welcome to JukeBox!
+	h1 Welcome to E-JukeBox!
 	
-	a(href="/host") #[strong(style="font-size: 30px") Start a Party]
-	|  or  
-	a(href="/join") #[strong(style="font-size: 30px") Join a Party]
+	div
+		a(href="/host")#link1 #[strong(style="font-size: 30px") Start a Party]
+		|  or  
+		a(href="/join")#link2  #[strong(style="font-size: 30px") Join a Party]
 		
