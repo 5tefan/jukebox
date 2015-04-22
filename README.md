@@ -131,5 +131,5 @@ Consensus based music for parties
 **Link to Source code documented as an HTML site in our VCS:** https://github.com/smchaha/jukebox/tree/master/out/index.html
 
 **VCS Link: https:** //github.com/smchaha/jukebox
-![alt tag] ()
+![alt tag] (https://github.com/smchaha/jukebox/blob/master/screencapture-file-home-stefan-jukebox-out-module-api_main_controller-html-1429745284703.png?raw=true)
 
