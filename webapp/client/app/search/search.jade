@@ -1,0 +1,13 @@
+bheader#banner.hero-unit
+	.container
+		h1 Jukebox
+		p Search for a song
+
+.container
+	form.search-form
+		label Search:
+		p.input-group
+			input.form-control(type='text', placeholder="Song or artist", ng-model="query")
+			span.input-group-btn
+				button.btn.btn-primary(type="submit', ng-click='search')
+
