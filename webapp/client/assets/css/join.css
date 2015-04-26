@@ -1,0 +1,38 @@
+/*a:link { 
+	color: red;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: white;
+}
+a:active {
+	color:green;
+}
+h1 { 
+	color: red;
+	text-align:center;
+	font-size:75px;
+}
+div { 
+	text-align:center;
+	border: 25px solid white;
+	margin: 200px;
+	padding: 25px;
+	width: 1250px;	
+}*/
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+

@@ -1,0 +1,11 @@
+/*
+* {
+background: white;
+}
+*/
+.jumbotron {
+  background-image:url('https://information2share.files.wordpress.com/2011/08/city-4.jpg');
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
