@@ -1,3 +1,28 @@
+/*
 * {
-background: black;
+background: white;
+}
+*/
+.jumbotron {
+  background-image: url('https://information2share.files.wordpress.com/2011/08/city-4.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron .container h1 {
+  color: #fff;
+  font-size: 40px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
 }

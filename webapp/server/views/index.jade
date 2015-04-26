@@ -1,11 +1,16 @@
 extends layout
 block head
 	link(rel="stylesheet", href="/assets/css/index.css")
+	script(src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+	link(rel="stylesheet", href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css")
+	//link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css")
 block content
-	h1 Welcome to E-JukeBox!
-	
-	div
-		a(href="/host")#link1 #[strong(style="font-size: 30px") Start a Party]
-		|  or  
-		a(href="/join")#link2  #[strong(style="font-size: 30px") Join a Party]
-		
+	.nav
+		.container
+				.pull-left
+					ul
+						li: a(href="/host")#link1 #[ Start a Party]
+						li: a(href="/join")#link2 #[ Join a Party]
+	.jumbotron
+		.container
+			h1 Welcome to the E-JukeBox!
