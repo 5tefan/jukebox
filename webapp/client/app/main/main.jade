@@ -5,10 +5,19 @@ header#banner.hero-unit
 		h1 Jukebox 
 		p.lead Party Playlist
 #content
-	.container
-		ul
-			li(ng-repeat="song in songs")
-				img(src="sample") 
-				p {{song.name}}
-				p {{song.artist}}
-
+.container
+	.row
+		.col-lg-12
+			h1.page-header Party Playlist:
+			ul
+				li(ng-repeat='thing in awesomeThings')
+					a(href='#', tooltip='{{thing.info}}') 
+						| {{thing.name}}
+						buton.close(type='button', ng-click='deleteThing(thing)') ×
+	form.thing-form
+		label Syncs in realtime across clients
+		p.input-group
+			input.form-control(type='text', placeholder='Add a new song here.', ng-model='newThing')
+			span.input-group-btn
+				button.btn.btn-primary(type='submit', ng-click='addThing()') Add Song
+ 
