@@ -1,6 +1,20 @@
 # E-Jukebox
 Consensus based music for parties
 
+## README 
+
+**Who:** Justin Barnitz, Patrick Andresen, Stefan Codrescu, Danny Thompson
+
+**Organization:** Our github page includes each of our project submissions (listed below), our Trello page, and the source code for the front-end and back-end of our web application. 
+
+**Where to Find Docs:** Our docs are location in the webapp and out folders along with the .gitignore file.
+
+**How to run code:** Grunt Server.
+
+**How to test code:** Grunt Test. 
+
+**Not Using a CI System**
+
 ## Project Part 1 – Proposal Submission + Repository
 
 **Who:** Justin Barnitz, Patrick Andresen, Stefan Codrescu, Danny Thompson
@@ -14,14 +28,14 @@ Consensus based music for parties
 **Motivation:** To ensure the maximum amount of people are enjoying the music at at a social event.
 
 **Risks:** 
-  * Playing music through mobile devices 
-  * Freely streaming music without copyright infringement
-  * Finding a music source
-  * Supporting multiple parties without waiting (scaling)
+  Playing music through mobile devices 
+  Freely streaming music without copyright infringement
+  Finding a music source
+  Supporting multiple parties without waiting (scaling)
 
 **VCS:** Git 
 
-**VCS Link:**  https://github.com/smchaha/jukebox
+**VCS Link:**  https://github.com/smchaha/jukebox
 
 ## Project Part 2 - Project	Tracker and	Requirements
 
@@ -132,4 +146,5 @@ Consensus based music for parties
 
 **VCS Link: https:** //github.com/smchaha/jukebox
 ![alt tag] (https://github.com/smchaha/jukebox/blob/master/screencapture-file-home-stefan-jukebox-out-module-api_main_controller-html-1429745284703.png?raw=true)
+
 
