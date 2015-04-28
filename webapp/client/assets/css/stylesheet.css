@@ -4,8 +4,9 @@ background: white;
 }
 */
 .jumbotron {
-  background-image: url('https://information2share.files.wordpress.com/2011/08/city-4.jpg');
-  height: 400px;
+  //background-image: url('https://information2share.files.wordpress.com/2011/08/city-4.jpg');
+  background-image: url(https://unsplash.imgix.net/photo-1422310299561-e3b8b45d859f?fit=crop&fm=jpg&h=700&q=75&w=1050);
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,6 +23,12 @@ background: white;
   font-weight: bold;
 }
 
+.jumbotron .container h2 {
+  color: #fff;
+  font-size: 35px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
 .jumbotron p {
   font-size: 20px;
   color: #fff;

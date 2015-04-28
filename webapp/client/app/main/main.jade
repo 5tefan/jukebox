@@ -1,9 +1,16 @@
-div(ng-include='"components/navbar/navbar.html"')
+block head
+	link(rel="stylesheet", href="/assets/css/join.css")
+	link(rel="stylesheet", href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css")
 
-header#banner.hero-unit
+block content
+//div(ng-include='"components/navbar/navbar.html"')
+
+//header#banner.hero-unit
+
+.jumbotron
 	.container
-		h1 Jukebox 
-		p.lead Party Playlist
+		h1 E-JukeBox
+
 #content
 .container
 	.row
@@ -15,7 +22,7 @@ header#banner.hero-unit
 						| {{thing.name}}
 						buton.close(type='button', ng-click='deleteThing(thing)') ×
 	form.thing-form
-		label Syncs in realtime across clients
+		label Add Song to Playlist
 		p.input-group
 			input.form-control(type='text', placeholder='Add a new song here.', ng-model='newThing')
 			span.input-group-btn

@@ -1,5 +1,5 @@
 extends layout
-blockhead 
+block head 
 	link(rel="stylesheet", href="/assets/css/join.css")
 	script(src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js")
 	link(rel="stylesheet", href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css")
@@ -12,10 +12,11 @@ block content
 					p= message
 				form#formJoinParty(name="party",method="post",action="/join")
 					input#inputPartyName(type="text",placeholder="Enter Party Name", name="name")
-					button#btnSubmit(type="submit") join
+					button#btnSubmit(type="submit") Join
 
 	.jumbotron
 		.container
 			h1 Welcome to the E-JukeBox!
+			h2 Join a Party
 	
 

@@ -13,7 +13,7 @@ angular.module('jukeboxApp')
       if($scope.newThing === '') {
         return;
       }
-      $http.post('/api/things', { name: $scope.newThing });
+      $http.post('/api/things', { name: $scope.newThing, like:0 });
       $scope.newThing = '';
     };
 

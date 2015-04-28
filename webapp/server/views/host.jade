@@ -1,13 +1,21 @@
 extends layout
-block content
-	h1 Welcome to JukeBox!
-	
-	h2 <strong>Start a Party</strong>
-		if (message)
-			p= message
-		form#formJoinParty(name="party",method="post",action="/host")
-			input#inputPartyName(type="text",placeholder="Enter Party Name", name="name")
-			button#btnSubmit(type="submit") Start
+block head
+	link(rel="stylesheet", href="/assets/css/join.css")
+	script(src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+	link(rel="stylesheet", href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css")
 
-	
+block content
+	.nav
+		.container
+			h2 <strong> Start A Party</strong>
+				if (message)
+					p= message
+				form#formJoinParty(name="party",method="post",action="/host")
+					input#inputPartyName(type="text",placeholder="Enter Party Name", name="name")
+					button#btnSubmit(type="submit") Start
+
+	.jumbotron
+		.container
+			h1 Welcome to E-JukeBox!
+			h2 Host your Party
 		

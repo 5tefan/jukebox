@@ -28,3 +28,21 @@
     margin-top: 70px;
     border-top: 1px solid #E5E5E5;
 }
+
+.jumbotron {
+   background-image: url(https://unsplash.imgix.net/photo-1422310299561-e3b8b45d859f?fit=crop&fm=jpg&h=700&q=75&w=1050);
+   height: 300px;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+
+
+
+
+.jumbotron .container h1 {
+  color: #fff;
+  font-size: 40px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
